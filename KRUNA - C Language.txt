@@ -1,4 +1,13 @@
 C History
+Bahasa c diciptakan dan di implementasikan pertama kali oleh Dennis Ritchie di DEC PDP-11
+yang menggunakan sistem operasi UNIX. C adalah hasil dari proses pengembangan yang dimulai dari
+bahasa yang sudah sangat tua yaitu BCPL. BCPL sebelumnya dikembangkan oleh Martin Richard yang
+terinsipirasi dari bahasa B yang diciptakan oleh Ken Thompson. B menjadi penyebab atau awal pengembangan bahasa c di tahun 1970.
+
+
+
+
+[C - The Complete Reference]
 
 
 
