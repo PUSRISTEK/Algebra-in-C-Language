@@ -29,9 +29,25 @@ Semua bahasa pemograman high level mendukung kondep tipe data, tipe data menjela
 digunakan untuk melakukan operasi tertentu. Data tipe yang paling umum adalah integer, character, dan floating point. meskipun c memiliki beberapa
 data tipe yang tersedia didalamnya dia bukan termasuk strongly tuped language seperti pascal dan ada. Hampir semua konversi tipedata dalam bahasa c bisa dilakukan.
 Aspek penting lainya dari bahasa c adalah sedikitnya jumlah keyword yang dimilikinya, sebagai contoh c89 hanya memiliki 32 keyword dan pada c99 hanya ditambahkan 5 keyword.
-sementara bahasa pemograman highlevel biasanya memiliki keyword lebih banyak, sebagai perbandingan sebagai contoh pada BASIC didalamnya terdapat 100 keyword
+sementara bahasa pemograman highlevel biasanya memiliki keyword lebih banyak, sebagai perbandingan sebagai contoh pada BASIC didalamnya terdapat 100 keyword.
+
+C is a Structured Language
+C adalah bahasa pemograman yang terstruktur.
+
+Compiler versus Interpreter
+Compiler membaca seluruh program dan mengkonversinya ke object code, penerjemahan dari souce code ke dalam bentuk yang bisa dieksekusi secara langsung oleh komputer.
+object code juga mengacu kepada binary code atau machine code. Secara umum program yang di interpreted menggunakan suatu interpreter berjalan lebih lambat daripada program 
+yang dikompil. ingat kembali ini karena compiler mengkonversi program source code kedalam object yang bisa dieksekusi langsung oleh komputer. kompilasi hanya terjadi satu kali,
+sementara penterjemahan interpreter dilakukan setiap kali program akan dijalankan. [C - The Complete Reference]
 
 
 C Language
+c digunakan untuk membuat program ukuran kecil dan cepat, bahasa yang paling dekat dengan bahasa mesin.
+komputer hanya mengerti satu bahasa yaitu bahasa mesin. sebuah aliran biner (binary stream) yang terdiri dari 0 dan 1. kita akan mengkonversi bahasa c kedalam bahasa mesin dengan bantuan
+kompiler. sebuah source code akan dikompil menjadi executable yang didalamnya terdapat bahasa mesin, sekumpulan kode biner 1 dan 0 yang mengalir untuk
+dipahami oleh komputer. [lihat lagi headfirst c]
 
-This language is designed to create small,
+
+c digunakan dimana kecepatan, kapasitas dan portability adalah sesuati yang penting, kebanyakan sistem operasi dibuat menggunakan bahasa c, banyak bahasa pemograman dibuat menggunakan bahasa c
+dan banyak game yang dibuat menggunakan bahasa c. ada 3 standar bahasa c, yaitu ANSI C pada akhir tahun 80an , c99 pada tahun 99 dan standar saat ini yaitu c11. perbedaan masing masingnya
+tidak terlalu besar 
