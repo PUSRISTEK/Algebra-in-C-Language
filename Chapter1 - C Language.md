@@ -1,4 +1,4 @@
-<h3>C History<h3>
+<h3>C History</h3>
 
 <p>Bahasa c diciptakan dan di implementasikan pertama kali oleh <b>Dennis Ritchie</b> di DEC PDP-11
 yang menggunakan sistem operasi UNIX. C adalah hasil dari proses pengembangan yang dimulai dari
