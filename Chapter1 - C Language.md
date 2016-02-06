@@ -21,7 +21,7 @@ Pengembangan bahasa c terus dilakukan meski dalam waktu yang lama, namun dari pe
 Hasilnya adalah standar c pada tahun 1999 yang disebut <b>c99</b>. Secara umum, c99 hampir mempertahankan semua fitur yang ada di dalam bahasa c sebelumnya. 
 Dengan demikian c masih c selain itu komite yang mengurus standarisasi c99 fokus kepada dua bidang utama yaitu : Penambahan beberapa <b>numeric libraries</b> 
 dan pengembangan beberapa penggunaan khusus yang sangat inovatif seperti penambahan fitur baru <b>variable-length arrays dan restrict pointer qualifier</b>. 
-Inovasi ini sekali lagi menempatkan c menjadi garis depan pengembangan bahasa pemograman.</p> Source : [C - The Complete Reference]
+Inovasi ini sekali lagi menempatkan c menjadi garis depan pengembangan bahasa pemograman. Source : [C - The Complete Reference]</p> 
 
 <h3>C is a Middle Level Language</h3>
 <p>Pada computer C seringkali disebut bahasa <b>Middle level</b> meskipun pada beberapa literatur disebut sebagai bahasa low level. 
@@ -51,7 +51,7 @@ Sementara penterjemahan interpreter dilakukan setiap kali program akan dijalanka
 Secara hakikat sebenarnya omputer hanya mengerti satu bahasa yaitu bahasa mesin. Sebuah aliran biner (binary stream) 
 yang terdiri dari 0 dan 1. Kita akan mengkonversi bahasa c kedalam bahasa mesin dengan bantuan sebuah kompiler. 
 Sebuah source code akan dikompilasi menjadi executable yang didalamnya terdapat bahasa mesin yaitu sekumpulan 
-kode biner 1 dan 0 yang mengalir untuk dipahami oleh komputer. </p> Source : [Headfirst C]
+kode biner 1 dan 0 yang mengalir untuk dipahami oleh komputer. Source : [Headfirst C] </p> 
 
 <p>C digunakan dimana kecepatan, kapasitas dan portability adalah sesuati yang penting. 
 Kebanyakan sistem operasi dibuat menggunakan bahasa c, banyak bahasa pemograman dibuat menggunakan bahasa c
