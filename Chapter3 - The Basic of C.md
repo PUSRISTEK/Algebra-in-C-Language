@@ -6,7 +6,7 @@
 ```c
 #include <stdio.h>
 int main() {
-printf("Welcome to Trinidad & Tobago");
+printf("Hello World");
 }
 ```
 
@@ -28,3 +28,13 @@ yang didalamnya terdapat instruksi yang akan dilakukan.
 
 <p>Kita bisa mengkompilasi code diatas menggunakan gcc dengan perintah dibawah ini :</p>
 
+```
+cd C:\
+```
+<p>Simpan terlebih dahulu code di drive C, kemudian pada CLI compile code tersebut :</p>
+
+```
+gcc helloworld.c -o hello.exe
+```
+
+<p><b>Option -o</b> agar kita bisa memberi nama pada output executable yang dihasilkan.</p>
