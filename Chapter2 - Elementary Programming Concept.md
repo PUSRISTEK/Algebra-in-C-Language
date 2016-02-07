@@ -50,6 +50,8 @@ Sebuah program yang disebut dengan <b>Compiler</b> akan menterjemahkan High Leve
 <p>Agar komputer bisa mengeksekusi sekumpulan instruksi yang ada didalam suatu program, maka program harus dimuat dahulu
 kedalam memory yaitu <b>primary storage</b> seperti pada gambar dibawah ini :</p>
 
+<img src="https://github.com/PUSRISTEK/Learning-C/blob/master/image/memory.JPG"></img>
+
 <p>Kita bisa membayangkan memori sebagai sebuah <b>Storage Location</b> tempat untuk menyimpan sekumpulan instruksi.
 <b>Setiap Memory Location</b> menyimpan sebuah instruksi secara spesifik, Memory Location memiliki pengenal yang disebut 
 dengan <b>Address</b> sebagai contoh instruksi A tersimpan di Address 99 dan instruksi B tersimpan di Address 6666.
