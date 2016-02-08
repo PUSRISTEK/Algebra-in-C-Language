@@ -137,7 +137,25 @@ Total Penjumalahan dari 1 dan 2 adalah 3
 ```
 
 <h3>Programming with Variables</h3>
-<p></p>
+<p>Sekarang kita akan mencoba membuat sebuah program sederhana untuk menjumlahkan dua buah bilangan, sehingga 
+agar kita bisa mengetahui hasilnya kita membutuhkan 3 buah variable dengan tipe data integer. Perhatikan source program dibawah ini :</p>
+
+```c
+#include <stdio.h>
+int main() {
+int a, b, sum;
+a = 14;
+b = 25;
+sum = a + b;
+printf("%d + %d = %d\n", a, b, sum);
+}
+```
+
+<p>Jika dieksekusi maka hasilnya adalah : </p>
+
+```
+14 + 25 = 39
+```
 
 <h3>Comments</h3>
 <p>Seluruh bahasa pemograman yang ada didunia ini memiliki cara tersendiri dalam memberikan sebuah comment.
@@ -147,5 +165,3 @@ telah kita buat. Dibawah ini adalah contoh penggunaan comment pada C :</p>
 ```c
 /* Komentar disini */
 ```
-
-
