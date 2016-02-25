@@ -22,10 +22,28 @@ printf("%d + %d = %d\n", a, b, sum);
 <p>int -> Reserved Keywords, main() -> identifier, { -> delimiter, a -> identifier, sum -> identifier, ; -> delimiter.</p>
 
 <h4>4.2.1 Reserved keywords</h4>
-<p>Bahasa C mempunyai daftar <b><i>Keywords</i></b> yang telah disediakan dan masing masing <b><i>Keywords</i></b> mempunyai arti dan tujuan. Sebagai contoh pada <b><i>Keywords</i></b> <b>int</b>, kita hanya bisa menggunakanya untuk memberi keterangan spesifik terhadap suatu data bahwa dia merupakan suatu <b><i>integer</i></b>. Seluruh <b><i>Keywords</i></b> ditulis dalam bentuk huruf kecil atau <b><i>Lowercase Letters</i></b> </p>
-All keywords are written in lowercase letters only. Thus int is a keyword but Int and INT
-are not. Keywords are reserved, that is, you cannot use them as your identifiers. As such, they are
-usually called reserved words. A list of C keywords is given in Appendix A.
+<p>Bahasa C mempunyai daftar <b><i>Keywords</i></b> yang telah disediakan dan masing masing <b><i>Keywords</i></b> mempunyai arti dan tujuan. Sebagai contoh pada <b><i>Keywords</i></b> <b>int</b>, kita hanya bisa menggunakanya untuk memberi keterangan spesifik terhadap suatu data bahwa dia merupakan suatu <b><i>integer</i></b>. Seluruh <b><i>Keywords</i></b> ditulis dalam bentuk huruf kecil atau <b><i>Lowercase Letters</i></b>, dengan begitu kita tidak bisa menggunakan <b><i>Keywords</i></b> sebagai sebuah <b><i>Identifiers.</i></b> itulah alasan mengapa kita menyebutnya dengan sebutan <b><i>Reserved Keywords</i></b></p>
+
+<h4>4.2.2 Identifiers</h4>
+<p>Sebelum kita membuat sebuah <b><i>Variables</i></b>, membuat nama pada sebuah<b><i>Functions</i></b> atau pada <b><i>Symbolic Constants</i></b> kita harus tahu terlebih dahulu tata caranya. Ada dua cara ntuk membuat sebuah <b><i>Identifiers</i></b> diantaranya adalah diawali dengan sebuah huruf atau <b><i>Underscores</i></b> dan jika kita membutuhkan karakter lainya kita bisa mengkombinasikan <b><i>Digits</i></b>, <b><i>Letters</i></b> dan <b><i>Underscores</i></b> dengan batas panjang sekitar 63 <b><i>Characters</i></b></p>
+
+<ul>
+<p>Contoh membuat sebuah <b><i>Identifiers.</i></b></p>
+<li>r</li>
+<li>R</li>
+<li>sum1</li>
+<li>_TEST</li>
+<li>camelCase</li>
+<li>Double_Unders_core</li>
+<li>A1A2</li>
+</ul>
+
+<ul>
+<p>Contoh <b><i>Identifiers.</i></b> yang salah :</p>
+<li>2Abs <- karena diawali dengan digits</li>
+<li>asd xyz <- karena terdapat spasi</li>
+<li>fox;trot <- karena terdapat <b><i>Invalid Character</i></b> -> ;</li>
+</ul>
 
 <b><i></i></b>
 
@@ -44,5 +62,12 @@ usually called reserved words. A list of C keywords is given in Appendix A.
 <li><b><i>Constants</i><b></li>
 <li><b><i>Delimiters</i><b></li>
 <li><b><i>Operators</i><b></li>
+<li><b><i>Variables</i><b></li>
+<li><b><i>Functions</i><b></li>
+<li><b><i>Symbolic Constants</i><b></li>
+<li><b><i>Underscores</i><b></li>
+<li><b><i>Letters</i><b></li>
+<li><b><i>Digits</i><b></li>
 <li><b><i>Lowercase Letters</i><b></li>
+<li><b><i>Invalid Character</i></b></li>
 </ul>
