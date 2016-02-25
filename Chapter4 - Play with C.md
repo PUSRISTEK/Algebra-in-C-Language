@@ -21,7 +21,11 @@ printf("%d + %d = %d\n", a, b, sum);
 
 <p>int -> Reserved Keywords, main() -> identifier, { -> delimiter, a -> identifier, sum -> identifier, ; -> delimiter.</p>
 
-
+<h4>4.2.1 Reserved keywords</h4>
+<p>Bahasa C mempunyai daftar <b><i>Keywords</i></b> yang telah disediakan dan masing masing <b><i>Keywords</i></b> mempunyai arti dan tujuan. Sebagai contoh pada <b><i>Keywords</i></b> <b>int</b>, kita hanya bisa menggunakanya untuk memberi keterangan spesifik terhadap suatu data bahwa dia merupakan suatu <b><i>integer</i></b>. Seluruh <b><i>Keywords</i></b> ditulis dalam bentuk huruf kecil atau <b><i>Lowercase Letters</i></b> </p>
+All keywords are written in lowercase letters only. Thus int is a keyword but Int and INT
+are not. Keywords are reserved, that is, you cannot use them as your identifiers. As such, they are
+usually called reserved words. A list of C keywords is given in Appendix A.
 
 <b><i></i></b>
 
@@ -35,4 +39,10 @@ printf("%d + %d = %d\n", a, b, sum);
 <li><b><i>Syntax Rules</i><b></li>
 <li><b><i>Syntax Errors</i><b></li>
 <li><b><i>Special Characters</i><b></li>
+<li><b><i>Reserved Keywords</i><b></li>
+<li><b><i>Identifiers</i><b></li>
+<li><b><i>Constants</i><b></li>
+<li><b><i>Delimiters</i><b></li>
+<li><b><i>Operators</i><b></li>
+<li><b><i>Lowercase Letters</i><b></li>
 </ul>
