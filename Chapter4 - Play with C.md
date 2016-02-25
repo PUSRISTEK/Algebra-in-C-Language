@@ -45,7 +45,7 @@ printf("%d + %d = %d\n", a, b, sum);
 <li>fox;trot <- karena terdapat <b><i>Invalid Character</i></b> -> ;</li>
 </ul>
 
-<b><i></i></b>
+<p>Bahasa C adalah bahasa yang memiliki karakteristik <b><i>Case Sensitive</i></b> jadi jika terdapat sebuah <b><i>Identifiers</i></b> a maka ia tidak sama dengan A dan sum tidak sama dengan Sum atau SuM. </p>
 
 <ul>
 <p><b>Glossary</b></p>
@@ -70,4 +70,5 @@ printf("%d + %d = %d\n", a, b, sum);
 <li><b><i>Digits</i><b></li>
 <li><b><i>Lowercase Letters</i><b></li>
 <li><b><i>Invalid Character</i></b></li>
+<li><b><i>Case Sensitive</i></b></li>
 </ul>
