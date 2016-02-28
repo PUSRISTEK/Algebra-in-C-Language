@@ -1,7 +1,11 @@
 <h3>1. Programming Language</h3>
 <p>Bahasa pemograman mempunyai level yang berbeda-beda, tergantung dari seberapa mirip ia menyerupai bahasa yang dimengerti oleh seorang manusia. Semakin mirip dengan bahasa manusia semakin mudah untuk dibaca dan dipelajari maka bahasa itu disebut dengan <b><i>High Level Language</i></b>, sementara <b><i>Low Level Language</i></b> berbanding terbalik dengan <b><i>High Level Language</i></b>. <b><i>Low Level Language</i></b> sulit untuk dibaca dan dipelajari karena bahasanya dekat sekali dengan bahasa mesin (<b><i>Machine Language</i></b>). <b><i>Machine Language</i></b> adalah <b><i>Lowest Level Language</i></b> dalam dunia komputer.</p>
 
-<p>Saat ini tak ada seorangpun programmer yang menggunakan <b><i>Lowest Level Language</i></b>, melainkan <b><i>Low Level Language</i></b> seperti bahasa <b><i>Assembly</i></b> bahasa yang satu level berada diatas bahasa <b><i>Machine Language</i></b></p>
+<p>Saat ini tak ada seorangpun programmer yang menggunakan <b><i>Lowest Level Language</i></b>, melainkan <b><i>Low Level Language</i></b> seperti bahasa <b><i>Assembly</i></b>. Bahasa <b><i>Assembly</i></b> berada satu level diatas <b><i>Machine Language</i></b>, mengapa bahasa <b><i>Low Level Language</i></b> masih eksis? sementara bahasa <b><i>High Level Language</i></b> yang lebih mudah difahami sudah tersedia? jawabanya adalah <b>SPEED & SIZE</b>. Sebuah programs yang dibuat menggunakan <b><i>Low Level Language</i></b> kecepatan eksekusinya lebih cepat dan ukuran kapasitasnya lebih ringan. </p>
+
+<p>Sebuah Program yang dibuat menggunakan <b><i>Visual Basic</i></b> bisa mencapai diatas 30 KiloByte tetapi jika program yang sama dibuat dengan <b><i>Assembly Language</i></b> kemungkinan besar dibawah 1 KiloByte, tetapi sebaliknya kita memerlukan waktu yang cukup lama jika program tersebut dibuat dengan <b><i>Assembly Language</i></b>. Sementara dengan bahasa <b><i>High Level Language</i></b> seperti <b><i>Visual Basic</i></b> kita bisa membuat program lebih cepat. it's tradeoff</p>
+
+<p>C adalah bahasa yang masuk kedalam kategori <b><i>Middle Level Language</i></b> dikarenakan c mempunyai bagian yang terikat dengan <b><i>Low Level Language</i></b> dan <b><i>High Level Language</i></b>. Dengan bahasa C kita bisa menikmati <b><i>High Level Language</i></b> dan <b><i>speed of development</i></b>, ukuran program yang padat, dan kecepatan eksekusi hampir mendekati <b><i>Low Level Language</i></b>.</p>
 
 <b><i></i></b>
 <h3>C History</h3>
