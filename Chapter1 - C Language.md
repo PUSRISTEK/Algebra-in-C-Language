@@ -1,3 +1,9 @@
+<h3>1. Programming Language</h3>
+<p>Bahasa pemograman mempunyai level yang berbeda-beda, tergantung dari seberapa mirip ia menyerupai bahasa yang dimengerti oleh seorang manusia. Semakin mirip dengan bahasa manusia semakin mudah untuk dibaca dan dipelajari maka bahasa itu disebut dengan <b><i>High Level Language</i></b>, sementara <b><i>Low Level Language</i></b> berbanding terbalik dengan <b><i>High Level Language</i></b>. <b><i>Low Level Language</i></b> sulit untuk dibaca dan dipelajari karena bahasanya dekat sekali dengan bahasa mesin (<b><i>Machine Language</i></b>). <b><i>Machine Language</i></b> adalah <b><i>Lowest Level Language</i></b> dalam dunia komputer.</p>
+
+<p>Saat ini tak ada seorangpun programmer yang menggunakan <b><i>Lowest Level Language</i></b>, melainkan <b><i>Low Level Language</i></b> seperti bahasa <b><i>Assembly</i></b> bahasa yang satu level berada diatas bahasa <b><i>Machine Language</i></b></p>
+
+<b><i></i></b>
 <h3>C History</h3>
 
 <p>Bahasa c diciptakan dan di implementasikan pertama kali oleh <b>Dennis Ritchie</b> di DEC PDP-11
