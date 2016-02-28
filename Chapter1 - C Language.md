@@ -47,7 +47,10 @@ Data tipe yang paling umum adalah <b>integer, character, dan floating point</b>,
 | Interpreter        | Compiler           | 
 | ------------- |:-------------:| 
 | Compiler menterjemahkan seluruh <b><i>High Level Language</i></b> sekali kedalam <b><i>Machine Language</i></b> sebelum dieksekusi. | Interpreter menterjemahkan program yang ditulis dengan <b><i>High Level Language</i></b> kedalam <b><i>Machine Language</i></b> bersamaan dengan mengeksekusi programnya. Program diterjemahkan dan dieksekusi per-instruksi. |
-
+| Compiler menterjemahkan seluruh <b><i>Source Code</i></b>| Interpreter menterjemahkan per-instruksi.|
+| <b><i>Object Code</i></b> secara permanen tersimpan untuk keperluan lebih lanjut.| <b><i>Object Code</i></b> tidak dibuat dan tersimpan |
+| Memerlukan ukuran penyimpanan yang cukup untuk menyimpan <b><i>Object Code</i></b>| Tidak memerlukan penyimpanan tambahan|
+| Waktu eksekusi oleh komputer sangat cepat | Memerlukan waktu untuk dieksekusi oleh komputer|
 
 <h3>1.9 C Language</h3>
 <p>C digunakan untuk membuat program ukuran kecil dan cepat, c adalah bahasa yang paling dekat dengan bahasa mesin.
