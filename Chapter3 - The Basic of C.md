@@ -1,6 +1,6 @@
-<h1>The Basic of C</h1>
+# The Basic of C
 
-<h3>Simple Program</h3>
+<h3>3.1 Simple Program</h3>
 <p>Dibawah ini adalah contoh program sederhana menggunakan bahasa c untuk menampilkan pesan dilayar screen :</p>
 
 ```c
@@ -10,20 +10,21 @@ printf("Hello World");
 }
 ```
 
+<h3>3.2 Header</h3>
+
 <p>Statement</p>
 ```c
 #include <stdio.h>
 ```
-
 <p>Disebut sebagai <b>Compiler Directive</b> secara sederhana isinya menyediakan segala hal yang dibutuhkan oleh program
 sebelum kita melakukan kompilasi. Dalam C, proses input dan output disediakan dalam standar fungsi tersebut, setiap program 
-yang akan menggunakan proses input dan output seperti <b>keyword printf</b> harus melampirkan library stdio.h</p>
+yang akan menggunakan proses input dan output seperti <b>keyword printf</b> harus melampirkan library stdio.h menggunakan <b>pre-processor statement #include</b>.</p>
 
+<p><i><b>The Angle Brackets < > </b></i> menginformasikan <i><b>Compiler</b></i> untuk mencari <i><b>Include Directory</b></i> tempat seluruh header bawaan disimpan. Jika kita membuat header sendiri dengan <i><b>Path Directory</b></i> yang berbeda kita bisa menggunakan <i><b>Double Quote</b></i></p>
+
+<h3>3.3 Main Function</h3>
 <p>Sebuah program dalam C terdiri dari 1 atau lebih <b>Function</b> salah satu fungsi harus bernama <b>main()</b>.
-Dua tanda kurung setelah keyword main sangat penting karena didalamnya akan menjadi tempat untuk menyimpan sebuah <b>Arguments</b>.
-Meskipun fungsi tidak memiliki Arguments tanda kurung tersebut harus tetap ada, kemudian keyword <b>int</b> sebelum 
-keyword main mengindisikasikan nilai balik <b>(returned value)</b> dalam fungsi main. Setiap fungsi memiliki <b>body of function</b>
-yang didalamnya terdapat instruksi yang akan dilakukan.
+Dua tanda kurung setelah keyword main sangat penting karena didalamnya akan menjadi tempat untuk menyimpan sebuah <b>Arguments</b>. Meskipun fungsi tidak memiliki Arguments tanda kurung tersebut harus tetap ada, kemudian keyword <b>int</b> sebelum keyword main mengindisikasikan nilai balik <b>(returned value)</b> dalam fungsi main. Kemudian setiap fungsi memiliki <b>body of function</b> yang didalamnya terdapat instruksi yang akan dilakukan.
 </p>
 
 <p>Kita bisa mengkompilasi code diatas menggunakan gcc dengan perintah dibawah ini :</p>
