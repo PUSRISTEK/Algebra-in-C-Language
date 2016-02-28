@@ -9,4 +9,6 @@ Learn c from zero to hero
 <li><a href="https://github.com/PUSRISTEK/Learning-C/blob/master/Chapter5%20-%20Data%20Types.md">Chapter5 - Data Types</a></li>
 <li><a href="">Chapter6 - </a></li>
 <li><a href="">Chapter7 - </a></li>
+<li><a href="">Chapter7 - </a></li>
+<li><a href="">Chapter8 - </a></li>
 </ul>
