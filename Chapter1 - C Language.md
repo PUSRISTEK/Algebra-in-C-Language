@@ -44,16 +44,23 @@ Data tipe yang paling umum adalah <b>integer, character, dan floating point</b>,
 <p>Sebuah <b><i>Interpreter</i></b> mampu melakukan penerjemahan suatu <b><i>Source Code</i></b> secara <b><i>Sentence-by-Sentence Translation</i></b> (Sebaris kode). Secara umum program yang diterjemahkan menggunakan suatu <b><i>Interpreter</i></b> berjalan lebih lambat daripada program yang diterjemahkan menggunakan sebuah <b><i>Compiler</i></b>, dikarenakan kompilasi hanya terjadi satu kali dan <b><i>Compiler</i></b> mengkonversi <b><i>Source Code</i></b> kedalam <b><i>Object Code</i></b> yang bisa dieksekusi langsung secara berkali kali oleh komputer. Sementara penterjemahan menggunakan <b><i>Interpreter</i></b> harus dilakukan setiap kali program akan dijalankan.</p> Source : [C - The Complete Reference]
 
 <h3>1.8 Difference Beetwen Interpreter & Compiler</h3>
-| Interpreter        | Compiler           | 
-| ------------- |:-------------:| 
-| Compiler menterjemahkan seluruh <b><i>High Level Language</i></b> sekali kedalam <b><i>Machine Language</i></b> sebelum dieksekusi. | Interpreter menterjemahkan program yang ditulis dengan <b><i>High Level Language</i></b> kedalam <b><i>Machine Language</i></b> bersamaan dengan mengeksekusi programnya. Program diterjemahkan dan dieksekusi per-instruksi. | 
-|s | s | 
-|s | s | 
-|  |  |
-| Compiler menterjemahkan seluruh <b><i>Source Code</i></b>| Interpreter menterjemahkan per-instruksi.|
-| <b><i>Object Code</i></b> secara permanen tersimpan untuk keperluan lebih lanjut.| <b><i>Object Code</i></b> tidak dibuat dan tersimpan |
-| Memerlukan ukuran penyimpanan yang cukup untuk menyimpan <b><i>Object Code</i></b>| Tidak memerlukan penyimpanan tambahan|
-| Waktu eksekusi oleh komputer sangat cepat | Memerlukan waktu untuk dieksekusi oleh komputer|
+<ol>
+<p>Interpreter</p>
+<li>Interpreter menterjemahkan program yang ditulis dengan <b><i>High Level Language</i></b> kedalam <b><i>Machine Language</i></b> bersamaan dengan mengeksekusi programnya. Program diterjemahkan dan dieksekusi per-instruksi.</li>
+<li>Interpreter menterjemahkan per-instruksi.</li>
+<li><b><i>Object Code</i></b> tidak dibuat dan tersimpan.</li>
+<li>Tidak memerlukan penyimpanan tambahan.</li>
+<li>Memerlukan waktu untuk dieksekusi oleh komputer.</li>
+</ol>
+
+<ol>
+<p>Compiler</p>
+<li>Compiler menterjemahkan seluruh <b><i>High Level Language</i></b> sekali kedalam <b><i>Machine Language</i></b> sebelum dieksekusi.</li>
+<li>Compiler menterjemahkan seluruh <b><i>Source Code</i></b></li>
+<li><b><i>Object Code</i></b> secara permanen tersimpan untuk keperluan lebih lanjut.</li>
+<li>Memerlukan ukuran penyimpanan yang cukup untuk menyimpan <b><i>Object Code</i></b>.</li>
+<li>Waktu eksekusi oleh komputer sangat cepat.</li>
+</ol> 
 
 <h3>1.9 C Language</h3>
 <p>C digunakan untuk membuat program ukuran kecil dan cepat, c adalah bahasa yang paling dekat dengan bahasa mesin.
