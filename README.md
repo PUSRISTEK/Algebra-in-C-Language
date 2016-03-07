@@ -22,8 +22,6 @@ Learn c from zero to hero
 <li><a href="#">2.4 - How a Computer Executes a Program</a></li>
 <li><a href="#">2.5 - Algorithms</a></li>
 <li><a href="#">2.6 - Pseudocode</a></li>
-<li><a href="#">2.7 - </a></li>
-<li><a href="#">2.8 - </a></li>
 
 <li><a href="https://github.com/PUSRISTEK/Learning-C/blob/master/Chapter3%20-%20The%20Basic%20of%20C.md">Chapter3 - The Basic of C</a></li>
 <li><a href="https://github.com/PUSRISTEK/Learning-C/blob/master/Chapter4%20-%20Play%20with%20C.md">Chapter4 - Play With C</a></li>
