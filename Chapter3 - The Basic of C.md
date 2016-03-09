@@ -10,6 +10,23 @@ printf("Hello World");
 }
 ```
 
+<p>Dibawah ini adalah contoh program sederhana hasil dari penerjamahan <b>Pseudocode</b> pada <b>Chapter 2.6 :</b></p></p>
+
+```c
+#include<stdio.h> /* menggunakan fungsi printf() & scanf() yang ada di stdio.h */
+#include<conio.h> /* menggunakan fungsi clrscr() & getch() yang ada di conio.h */
+main() /* Starting point tempat program akan dieksekusi*/
+{
+int a,b,sum; /* Deklarasi Variabel */
+clrscr(); /* Bersihkan Layar */
+printf("enter two numbers"); /* Request for Input */
+scanf("%d %d",&a,&b); /* Input from user */
+sum=a+b; /* Jumlahkan kedua variabel */
+printf("sum=%d",sum); /* Tampilkan hasil */
+getch(); /* To hold output screen */
+} /* End
+```
+
 <h3>3.2 Header</h3>
 
 <p>Statement</p>
@@ -21,6 +38,11 @@ sebelum kita melakukan kompilasi. Dalam C, proses input dan output disediakan da
 yang akan menggunakan proses input dan output seperti <b>keyword printf</b> harus melampirkan library stdio.h menggunakan <b>pre-processor statement #include</b>.</p>
 
 <p><i><b>The Angle Brackets < > </b></i> menginformasikan <i><b>Compiler</b></i> untuk mencari <i><b>Include Directory</b></i> tempat seluruh header bawaan disimpan. Jika kita membuat header sendiri dengan <i><b>Path Directory</b></i> yang berbeda kita bisa menggunakan <i><b>Double Quote</b></i></p>
+
+<p>Statement</p>
+```c
+#include "...stdio.h"
+```
 
 <h3>3.3 Main Function</h3>
 <p>Sebuah program dalam C terdiri dari 1 atau lebih <b>Function</b> salah satu fungsi harus bernama <b>main()</b>.
