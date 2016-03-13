@@ -19,12 +19,12 @@ main() /* Starting point tempat program akan dieksekusi*/
 {
 int a,b,sum; /* Deklarasi Variabel */
 clrscr(); /* Bersihkan Layar */
-printf("enter two numbers"); /* Request for Input */
-scanf("%d %d",&a,&b); /* Input from user */
+printf("Masukan dua angka : "); /* Permintaan Input */
+scanf("%d %d",&a,&b); /* Input dari user */
 sum=a+b; /* Jumlahkan kedua variabel */
 printf("sum=%d",sum); /* Tampilkan hasil */
-getch(); /* To hold output screen */
-} /* End
+getch(); /* untuk mencegah output screen menutup */
+} 
 ```
 
 <h3>3.2 Header</h3>
@@ -41,12 +41,11 @@ yang akan menggunakan proses input dan output seperti <b>keyword printf</b> haru
 
 <p>Statement</p>
 ```c
-#include "...stdio.h"
+#include "path\stdio.h"
 ```
 
 <h3>3.3 Main Function</h3>
-<p>Sebuah program dalam C terdiri dari 1 atau lebih <b>Function</b> salah satu fungsi harus bernama <b>main()</b>.
-Dua tanda kurung setelah keyword main sangat penting karena didalamnya akan menjadi tempat untuk menyimpan sebuah <b>Arguments</b>. Meskipun fungsi tidak memiliki Arguments tanda kurung tersebut harus tetap ada, kemudian keyword <b>int</b> sebelum keyword main mengindisikasikan nilai balik <b>(returned value)</b> dalam fungsi main. Kemudian setiap fungsi memiliki <b>body of function</b> yang didalamnya terdapat instruksi yang akan dilakukan.
+<p>Sebuah program dalam C terdiri dari 1 atau lebih <b>Function</b> salah satu fungsi harus bernama <b>main()</b> dikarenakan fungsi <b>main()</b> adalah tempat program untuk dieksekusi pertama kali. Dua tanda kurung setelah keyword <b>main()</b> sangat penting karena didalamnya adalah tempat untuk menyimpan sebuah <b>Arguments.</b> Meskipun begitu khusus fungsi <b>main()</b> dia tidak memiliki <b>Arguments</b> namun tanda kurung tersebut harus tetap ada, kemudian keyword <b>int</b> sebelum fungsi <b>main()</b> mengindisikasikan nilai balik <b>(returned value)</b> dalam fungsi main yaitu sebuah integer. Jika tidak terdapat fungsi <b>main()</b> maka program tidak akan bisa dikompilasi. 
 </p>
 
 <p>Kita bisa mengkompilasi code diatas menggunakan gcc dengan perintah dibawah ini :</p>
@@ -63,7 +62,7 @@ gcc helloworld.c -o hello.exe
 <p><b>Option -o</b> agar kita bisa memberi nama pada output executable yang dihasilkan.</p>
 
 <h3>Write Output with printf</h3>
-
+<p>Dalam bahasa c <b>Printf Function</b> adalah fungsi standar yang digunakan untuk menampilkan sebuah output, fungsi printf dapat digunakan jika kita telah melampirkan <b>Library stdio.h</b> </p>
 <p>Misal kita ingin membuat sebuah program untuk menampilkan sebuah quote menggunakan <b>printf</b> :</p>
 
 ```c
