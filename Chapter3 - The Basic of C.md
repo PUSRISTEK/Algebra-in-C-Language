@@ -40,7 +40,7 @@ yang akan menggunakan proses input dan output seperti <b>keyword printf</b> haru
 
 <p>Statement</p>
 ```c
-#include path\stdio.h"
+#include path\stdio.h
 ```
 
 <h3>3.3 Main Function</h3>
@@ -50,4 +50,4 @@ yang akan menggunakan proses input dan output seperti <b>keyword printf</b> haru
 <h3>3.4 Printf & Scanf Function</h3>
 <p>Dalam bahasa c <b>Printf Function</b> adalah fungsi standar yang digunakan untuk menampilkan sebuah output, fungsi printf dapat digunakan jika kita telah melampirkan <b>Library stdio.h</b> sementara <b>Scanf Function</b> adalah fungsi untuk untuk membaca input keyboard. <b>Format Specifier %d</b> digunakan untuk untuk membaca nilai input pada keyboard sebagai <b>integer</b>, jika terdapat lebih dari satu <b>Format Specifier %d</b> maka artinya ada lebih dari satu variabel untuk menyimpan suatu nilai. Pada contoh program diatas <b>&a dan &b</b> adalah variabel yang digunakan untuk menyimpan input dari dua <b>Format Specifier %d</b>, symbol <b>&</b> mempunyai peran penting dalam <b>Scanf Function</b> agar kita bisa mengubah nilai suatu variabel dan biasa disebut sebagai <b>Ampersand</b></p>
 
-<h3>3.4 Printf & Scanf Function</h3>
+<h3>3.5 </h3>
