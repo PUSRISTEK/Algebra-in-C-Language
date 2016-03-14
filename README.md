@@ -24,7 +24,12 @@ Learn c from zero to hero
 <li><a href="#">2.6 - Pseudocode</a></li>
 
 <li><a href="https://github.com/PUSRISTEK/Learning-C/blob/master/Chapter3%20-%20The%20Basic%20of%20C.md">Chapter3 - The Basic of C</a></li>
-<li><a href="https://github.com/PUSRISTEK/Learning-C/blob/master/Chapter4%20-%20Play%20with%20C.md">Chapter4 - Play With C</a></li>
+<li><a href="#">3.1 - Simple Program</a></li>
+<li><a href="#">3.2 - Header</a></li>
+<li><a href="#">3.3 - Main Function</a></li>
+<li><a href="#">3.4 - Printf & Scanf Function</a></li>
+<li><a href="#">3.5 - The Format of C Language</a></li>
+<li><a href="https://github.com/PUSRISTEK/Learning-C/blob/master/Chapter4%20-%20Play%20with%20C.md">Chapter4 - Elements of C Language</a></li>
 <li><a href="https://github.com/PUSRISTEK/Learning-C/blob/master/Chapter5%20-%20Data%20Types.md">Chapter5 - Data Types</a></li>
 <li><a href="">Chapter6 - </a></li>
 <li><a href="">Chapter7 - </a></li>
