@@ -44,7 +44,9 @@ yang akan menggunakan proses input dan output seperti <b><i>Keyword printf</i></
 </p>
 
 <h3>3.4 Printf & Scanf Function</h3>
-<p>Dalam bahasa c <b><i>Printf Function</i></b> adalah fungsi standar yang digunakan untuk menampilkan sebuah output, fungsi printf dapat digunakan jika kita telah melampirkan <b><i>Library stdio.h</i></b> sementara <b><i>Scanf Function</i></b> adalah fungsi untuk untuk membaca input keyboard. <b><i>Format Specifier %d</i></b> digunakan untuk untuk membaca nilai input pada keyboard sebagai <b>integer</b>, jika terdapat lebih dari satu <b><i>Format Specifier %d</i></b> maka artinya ada lebih dari satu variabel untuk menyimpan suatu nilai. Pada contoh program diatas <b>&a dan &b</b> adalah variabel yang digunakan untuk menyimpan input dari dua <b><i>Format Specifier %d</i></b>, symbol <b>&</b> mempunyai peran penting dalam <b><i>Scanf Function</i></b> agar kita bisa mengubah nilai suatu variabel dan biasa disebut sebagai <b><i>Ampersand</i></b></p>
+<p>Dalam bahasa c <b><i>Printf Function</i></b> adalah fungsi standar yang digunakan untuk menampilkan sebuah output, fungsi printf dapat digunakan jika kita telah melampirkan <b><i>Library stdio.h</i></b> sementara <b><i>Scanf Function</i></b> adalah fungsi untuk untuk membaca input keyboard. <b><i>Format Specifier %d</i></b> digunakan untuk untuk membaca nilai input pada keyboard sebagai <b>integer</b>, jika terdapat lebih dari satu <b><i>Format Specifier %d</i></b> maka artinya ada lebih dari satu variabel untuk menyimpan suatu nilai.</p> 
+
+<p>Pada contoh program diatas <b>&a dan &b</b> adalah variabel yang digunakan untuk menyimpan input dari dua <b><i>Format Specifier %d</i></b>, symbol <b>&</b> mempunyai peran penting dalam <b><i>Scanf Function</i></b> agar kita bisa mengubah nilai suatu variabel dan biasa disebut sebagai <b><i>Ampersand</i></b></p>
 
 <h3>3.5 The Format of C Language</h3>
 <p>C adalah bahasa yang memiliki sifat <b><i>Case Sensitive</i></b>, seluruh <b><i>Keywords C</i></b> dan ratusan fungsi lainya yang tersimpan didalam sebuah <b><i>Library</i></b> harus ditulis dengan <b><i>Lowercase</i></b>.</p>
@@ -52,6 +54,3 @@ yang akan menggunakan proses input dan output seperti <b><i>Keyword printf</i></
 <p>Dalam bahasa c setiap <b><i>Statements</i></b> harus dihentikan menggunakan <b><i>Semicolon</i></b> agar <b><i>Compiler</i></b> bisa mengetahui akhir sebuah <b><i>Statements</i></b> untuk mengeksekusi <b><i>Statements</i></b> selanjutnya. Jika kita tidak menggunakan <b><i>Semicolon</i></b> pada salah satu <b><i>Statements</i></b> maka proses kompilasi akan mengalami kegagalan.</p>
 
 <p>Dalam bahasa c <b><i>Identation</i></b>, <b><i>Space</i></b> dan <b><i>Tabs</i></b> diabaikan oleh <b><i>Compiler</i></b> tapi alangkah lebih baik digunakan agar <b><i>Source Code</i></b> lebih mudah untuk dibaca.</p>
-
-
-<b><i></i></b>
