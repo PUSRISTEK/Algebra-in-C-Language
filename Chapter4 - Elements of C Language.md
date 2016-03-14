@@ -5,25 +5,38 @@
 <p>Dengan <b><i>Tokens</i></b> kita akan membuat sebuah <b><i>Statements</i></b> untuk membuat sebuah <b><i>Programs</i></b>. <b><i>Programs</i></b> diatur menggunakan sebuah <b><i>Syntax Rules</i></b> yang harus dipatuhi dan pasti dimiliki oleh setiap bahasa pemograman. Jika kita melanggarnya maka akan menimbulkan sebuah <b><i>Syntax Errors</i></b> </p>
 
 <h3>4.1 C Alphabet</h3>
-<p>C Alphabet terdiri dari seluruh <b><i>Characters</i></b> yang terdapat dalam <b><i>English Keyboard</i></b> mulai dari angka, huruf besar atau kecil, dan <b><i>Special Characters</i></b> seperti : +, =, <, >, &, dan % atau secara formal C menggunakan ASCII (American Standard Code for Information Interchange).</p>
+<p>C Alphabet terdiri dari seluruh <b><i>Characters</i></b> yang terdapat dalam <b><i>English Keyboard</i></b> mulai dari angka, huruf besar atau kecil, dan <b><i>Special Characters</i></b> seperti : +, =, <, >, &, dan % atau secara formal C menggunakan ASCII (American Standard Code for Information Interchange). Adapun penjelasan lebih detailnya :</p>
+
+<ul>
+<li><b><i>Digits</i></b> dimulai dari angka 0 sampai angka 9</li>
+<li><b><i>Uppercase Letters</i></b> dimulai dari huruf A sampai Z</li>
+<li><b><i>Lowercase Letters</i></b> dimulai dari huruf a sampai z</li>
+<li><b><i>Special Symbols</i></b> seperti (, ), $, =, <, >, +, -, /, *, dan sebagainya</li>
+<li><b><i>Letter</i></b> mengacu kepada a sampai z atau A sampai Z</li>
+<li><b><i>Alphabetic</i></b> mengacu kepada <b><i>Letter</i></b></li>
+<li><b><i>Numeric</i></b> mengacu kepada <b><i>Digits</i></b></li>
+<li><b><i>Alphanumeric</i></b> mengacu kepada <b><i>Digits</i></b> atau <b><i>Letter</i></b></li>
+</ul>
 
 <h3>4.2 Tokens</h3>
-<p>Tokens dari suatu bahasa pemograman digunakan sebagai sekumpulan blok untuk membuat sebuah <b>Statements</b> agar bisa menciptakan suatu <b>Programs</b>.</p> 
-<p>Sebuah <b><i>Tokens</i></b> bisa berupa :</p>
-<p><b><i>Reserved Keywords</i></b> seperti <b>int</b> atau <b>while</b></p> 
-<p><b><i>Identifiers</i></b> seperti <b>x</b> atau <b>sum</b></p> 
-<p><b><i>Constant</i></b> seperti <b>20</b> atau <b>Maudy Sedang Belajar</b></p> 
-<p><b><i>Delimiter</i></b> seperti <b>)</b>, <b>}</b>, <b>;</b></p> 
-<p><b><i>Operator</i></b> seperti <b>+</b> dan <b>=</b>.</p> 
+<p>Tokens adalah sekumpulan blok dari suatu bahasa pemograman yang digunakan untuk membuat sebuah <b>Programs</b>. Sebuah <b><i>Tokens</i></b> bisa berupa :</p>
+
+<ul>
+<li><b><i>Reserved Keywords</i></b> seperti <b>int</b> atau <b>while</b></li> 
+<li><b><i>Identifiers</i></b> seperti <b>x</b> atau <b>sum</b></li>
+<li><b><i>Literals/Constants</i></b> seperti <b>20</b> atau <b>Maudy Sedang Belajar</b></li> 
+<li><b><i>Delimiters</i></b> seperti <b>)</b>, <b>}</b>, <b>;</b></li> 
+<li><b><i>Operators</i></b> seperti <b>+</b> dan <b>=</b>.</li> 
+</ul>
 
 <p>Sebagai contoh perhatikan program dibawah ini : </p>
 ```c
 int main() {
-int a, b, sum;
+int a, b, jumlah;
 a = 14;
 b = 20;
-sum = a + b;
-printf("%d + %d = %d\n", a, b, sum);
+jumlah = a + b;
+printf("%d + %d = %d\n", a, b, jumlah);
 }
 ```
 
@@ -35,7 +48,7 @@ printf("%d + %d = %d\n", a, b, sum);
 <img src="https://github.com/PUSRISTEK/Learning-C/blob/master/image/reserved-keywords.JPG">
 
 <h4>4.2.2 Identifiers</h4>
-<p>Sebelum kita membuat sebuah <b><i>Variables</i></b>, membuat nama pada sebuah <b><i>Functions</i></b> atau pada <b><i>Symbolic Constants</i></b> kita harus tahu terlebih dahulu tata caranya. Ada dua cara ntuk membuat sebuah <b><i>Identifiers</i></b> diantaranya adalah diawali dengan sebuah huruf atau <b><i>Underscores</i></b> dan jika kita membutuhkan karakter lainya kita bisa mengkombinasikan <b><i>Digits</i></b>, <b><i>Letters</i></b> dan <b><i>Underscores</i></b> dengan batas panjang sekitar 63 <b><i>Characters</i></b></p>
+<p><b><i>Identifiers</i></b> adalah sebuah nama yang diberikan untuk sebuah <b><i>Variables</i></b>, <b><i>Functions</i></b> atau pada sebuah <b><i>Symbolic Constants</i></b>. Penamaan <b><i>Identifiers</i></b> memiliki tata cara yang harus diikuti, ada dua cara ntuk membuat sebuah <b><i>Identifiers</i></b> diantaranya adalah diawali dengan sebuah huruf atau <b><i>Underscores</i></b> dan jika kita membutuhkan karakter lainya kita bisa mengkombinasikan <b><i>Digits</i></b>, <b><i>Letters</i></b> dan <b><i>Underscores</i></b> dengan batas panjang sekitar 63 <b><i>Characters</i></b></p>
 
 <ul>
 <p>Contoh membuat sebuah <b><i>Identifiers.</i></b></p>
@@ -54,6 +67,16 @@ printf("%d + %d = %d\n", a, b, sum);
 <li>asd xyz <- karena terdapat spasi</li>
 <li>fox;trot <- karena terdapat <b><i>Invalid Character</i></b> -> ;</li>
 </ul>
+
+<h4>4.2.3 Variables</h4>
+<p><b><i>Variables</i></b> adalah sebuah tempat untuk menyimpan suatu nilai. <b><i>Variables</i></b> tersimpan dalam sebuah <b><i>Main Memory</i></b> yang biasa digunakan untuk menyimpan suatu tipe data saat <b><i>programs</i></b> sedang dieksekusi. Nama <b><i>Variables</i></b> adalah nama yang diberikan untuk menyimpan
+names given to locations in memory. These locations can contain integer, real or
+character constants. All the variables that are used in the program should be declared
+i.e. typed at the top with their respective data types. The variable declaration tells two
+thing</p>
+<b><i></i></b>
+
+
 
 <p>Terlebih bahasa C adalah bahasa yang memiliki karakteristik <b><i>Case Sensitive</i></b> jadi jika terdapat sebuah <b><i>Identifiers</i></b> a maka ia tidak sama dengan A dan sum tidak sama dengan Sum atau SuM. </p>
 
