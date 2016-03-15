@@ -70,10 +70,6 @@ printf("%d + %d = %d\n", a, b, jumlah);
 
 <h4>4.2.3 Variables</h4>
 <p><b><i>Variables</i></b> adalah sebuah tempat untuk menyimpan suatu nilai. <b><i>Variables</i></b> tersimpan dalam sebuah <b><i>Main Memory</i></b> yang biasa digunakan untuk menyimpan suatu tipe data saat <b><i>programs</i></b> sedang dieksekusi. Nama <b><i>Variables</i></b> adalah nama yang diberikan untuk menyimpan
-names given to locations in memory. These locations can contain integer, real or
-character constants. All the variables that are used in the program should be declared
-i.e. typed at the top with their respective data types. The variable declaration tells two
-thing</p>
 <b><i></i></b>
 
 
